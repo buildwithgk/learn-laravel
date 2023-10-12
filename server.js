@@ -18,6 +18,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'views', 'index.html'));
 });
+app.get('/about', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'views', 'about.html'));
+});
 
 app.listen(port, () => {
     console.log(`Node.js server is running at http://localhost:${port}`);
