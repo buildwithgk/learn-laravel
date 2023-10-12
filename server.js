@@ -9,16 +9,16 @@ const indexRoute = require('./routes/index');
 const aboutRoute = require('./routes/about');
 
 // Use routes
-app.use('/', indexRoute);
-app.use('/about', aboutRoute);
+// app.use('/', indexRoute);
+// app.use('/about', aboutRoute);
+// Serve static files from the public folder
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Handle requests to the root URL
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'views', 'index.html'));
+});
 
 app.listen(port, () => {
     console.log(`Node.js server is running at http://localhost:${port}`);
 });
-
-// app.use(bodyParser.json());
-// app.use(express.static(__dirname + '/public/views'));
-
-// app.get('/', (req, res) => {
-//   res.sendFile(__dirname + '/public/views/index.html');
-// });
