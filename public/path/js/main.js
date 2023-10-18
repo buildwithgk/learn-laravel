@@ -107,3 +107,6 @@
 
 })(jQuery);
 
+var currentPath = window.location.pathname;
+var activeLink = document.getElementById(currentPath);
+activeLink.classList.add('active');
