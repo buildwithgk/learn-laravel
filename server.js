@@ -100,6 +100,24 @@ app.get('/blog', (req, res) => {
     });
 });
 
+app.get('/contact', (req, res) => {
+    res.render('contact', {
+        pageTitle: 'Contact'
+    });
+});
+
+app.get('/team', (req, res) => {
+    res.render('team', {
+        pageTitle: 'Team'
+    });
+});
+
+app.get('/testimonial', (req, res) => {
+    res.render('testimonial', {
+        pageTitle: 'Testimonial'
+    });
+});
+
 app.listen(port, () => {
     console.log(`Node.js server is running at http://localhost:${port}`);
 });
