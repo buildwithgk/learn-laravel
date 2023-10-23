@@ -54,8 +54,19 @@ const port = 3000;
 const menuItems = [
     { name: 'Home', url: '/' },
     { name: 'About', url: '/about' },
-    { name: 'Services', url: '/services' }
-    // Add more menu items as needed
+    { name: 'Projects', url: '/project'},
+    { name: 'Services', url: '/service' },
+    { 
+        name: 'Pages', 
+        url: '#', 
+        submenus: [
+            { name: 'Our Blog', url: '/blog' },
+            { name: 'Our Team', url: '/team' },
+            { name: 'Testimonial', url: '/testimonial' }
+            // Add more submenus for Pages as needed
+        ]
+    },
+    { name: 'Contact', url: '/contact' }
 ];
 
 app.set('view engine', 'ejs'); // Set EJS as the view engine

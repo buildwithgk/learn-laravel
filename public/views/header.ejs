@@ -66,25 +66,21 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
-                        <ul>
-                            <% for(let item of menuItems) { %>
-                                <li><a href="<%= item.url %>"><%= item.name %></a></li>
-                            <% } %>
-                        </ul>
                         <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                            <a href="/" class="nav-item nav-link" id="/">Home</a>
-                            <a href="/about" class="nav-item nav-link" id="/about">About</a>
-                            <a href="/service" class="nav-item nav-link" id="/service">Services</a>
-                            <a href="/project" class="nav-item nav-link" id="/project">Projects</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                                <div class="dropdown-menu rounded">
-                                    <a href="/blog" class="dropdown-item" id="/blog">Our Blog</a>
-                                    <a href="/team" class="dropdown-item" id="/team">Our Team</a>
-                                    <a href="/testimonial" class="dropdown-item" id="/testimonial">Testimonial</a>
-                                </div>
-                            </div>
-                            <a href="/contact" class="nav-item nav-link" id="/contact">Contact</a>
+                            <% menuItems.forEach(function(item) { %>
+                                <% if (item.submenus && item.submenus.length > 0) { %>
+                                    <div class="nav-item dropdown">
+                                        <a href="<%= item.url %>" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><%= item.name %></a>
+                                        <div class="dropdown-menu rounded">
+                                            <% item.submenus.forEach(function(submenu) { %>
+                                                <a href="<%= submenu.url %>" class="dropdown-item" id="<%= submenu.url %>"><%= submenu.name %></a>
+                                            <% }); %>
+                                        </div>
+                                    </div>
+                                <% } else { %>
+                                    <a href="<%= item.url %>" class="nav-item nav-link" id="<%= item.url %>"><%= item.name %></a>
+                                <% } %>
+                            <% }); %>
                         </div>
                     </div>
                     <div class="d-none d-xl-flex flex-shirink-0">
