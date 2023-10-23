@@ -17,11 +17,21 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="#" class="h3 text-secondary">Short Link</a>
                         <div class="mt-4 d-flex flex-column short-link">
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>About us</a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Services</a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Projects</a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Latest Blog</a>
+                             <% menuItems.forEach(function(item) { %>
+                                <% if (item.submenus && item.submenus.length > 0) { %>
+                                    <div class="nav-item dropdown mb-2">
+                                        <a href="<%= item.url %>" class="mb-2 text-white dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-angle-right text-secondary me-2"></i><%= item.name %></a>
+                                        <div class="dropdown-menu rounded">
+                                            <% item.submenus.forEach(function(submenu) { %>
+                                                <a href="<%= submenu.url %>" class="mb-2 dropdown-item" id="<%= submenu.url %>"><i class="fas fa-angle-right text-secondary me-2"></i><%= submenu.name %></a>
+                                            <% }); %>
+                                        </div>
+                                    </div>
+                                <% } else { %>
+                                    <a href="<%= item.url %>" class="mb-2 text-white" id="<%= item.url %>"><i class="fas fa-angle-right text-secondary me-2"></i><%= item.name %></a>
+                                <% } %>
+                            <% }); %>
+                           
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
