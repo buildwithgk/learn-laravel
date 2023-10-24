@@ -71,7 +71,6 @@ const menuItems = [
 ];
 app.use(cors());
 
-
 app.set('view engine', 'ejs'); // Set EJS as the view engine
 app.set('views', path.join(__dirname, 'public', 'views')); // Set the views directory
 
