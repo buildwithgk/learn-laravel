@@ -9,10 +9,10 @@
 </head>
 <body>
     <div id="root" class="mainOuter"></div>
+    <script>
+        var Config = {
+            user: <?php echo Auth::user() ? Auth::user() : 'null'; ?>
+        };
+    </script>
 </body>
-<script>
-     var Config={
-            user:<?php echo Auth::user() ? Auth::user() : 'null' ?>,
-        }
-</script>
 </html>
