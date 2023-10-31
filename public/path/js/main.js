@@ -109,4 +109,13 @@
 
 var currentPath = window.location.pathname;
 var activeLink = document.getElementById(currentPath);
-activeLink.classList.add('active');
+// activeLink.classList.add('active');
+// If the element is not found, try adding a leading slash and try again
+if (!activeLink) {
+    currentPath = '/' + currentPath; // Add leading slash
+    activeLink = document.getElementById(currentPath);
+}
+
+if (activeLink) {
+    activeLink.classList.add('active');
+}
