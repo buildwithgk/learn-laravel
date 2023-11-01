@@ -51,10 +51,10 @@ const Footer = () => {
 	                <hr className="text-light mt-5 mb-4" />
 	                <div className="row">
 	                    <div className="col-md-6 text-center text-md-start">
-	                        <span className="text-light"><a href="#" className="text-secondary"><i className="fas fa-copyright text-secondary me-2"></i>Your Site Name</a>, All right reserved.</span>
+	                        <span className="text-light"><a href="#" className="text-secondary"><i className="fas fa-copyright text-secondary me-2"></i>JLK Technology</a>, All right reserved.</span>
 	                    </div>
 	                    <div className="col-md-6 text-center text-md-end">
-	                        <span className="text-light">Designed By<a href="https://htmlcodex.com" className="text-secondary">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></span>
+	                        <span className="text-light">Designed Develop By Gagan Deep Kashyap</span>
 	                    </div>
 	                </div>
 	            </div>
