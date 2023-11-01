@@ -25,7 +25,7 @@ export default function App(){
                 <Route path="/contact" exact element={<Contact />} />
                 <Route path="/team" exact element={<Team />} />
                 <Route path="/blog" exact element={<Blog />} />
-                <Route path="/client" exact element={<Client />} />
+                <Route path="/testimonial" exact element={<Client />} />
               </Routes>
             <Footer /> 
         </Router>
