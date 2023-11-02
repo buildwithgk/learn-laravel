@@ -378,7 +378,8 @@ export default function Index() {
                         <h5 className="text-primary">Our Team</h5>
                         <h1>Meet our expert Team</h1>
                     </div>
-                    <div className="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
+                    {/*owl-carousel class removed*/}
+                    <div className="team-carousel wow fadeIn" data-wow-delay=".5s">
                         <div className="rounded team-item">
                             <div className="team-content">
                                 <div className="team-img-icon">
@@ -465,7 +466,8 @@ export default function Index() {
                         <h5 className="text-primary">Our Testimonial</h5>
                         <h1>Our Client Saying!</h1>
                     </div>
-                    <div className="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+                    {/*owl-carousel class removed*/}
+                    <div className="testimonial-carousel wow fadeIn" data-wow-delay=".5s">
                         <div className="testimonial-item border p-4">
                             <div className="d-flex align-items-center">
                                 <div className="">

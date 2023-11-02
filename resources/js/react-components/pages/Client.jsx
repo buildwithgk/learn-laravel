@@ -53,7 +53,8 @@ export default function Client(){
 	                    <h5 className="text-primary">Our Testimonial</h5>
 	                    <h1>Our Client Saying!</h1>
 	                </div>
-	                <div className="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+	                {/*owl-carousel class removed*/}
+	                <div className="testimonial-carousel wow fadeIn" data-wow-delay=".5s">
 	                    <div className="testimonial-item border p-4">
 	                        <div className="d-flex align-items-center">
 	                            <div className="">

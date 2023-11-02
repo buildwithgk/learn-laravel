@@ -2,12 +2,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ceri | Dashboard</title>
+    <title>MOM | Dashboard</title>
     <link rel="icon" type="image/svg+xml" href="./images/favicon.png" />
-    <head>
-        <meta charset="utf-8">
-        <title><%= pageTitle %></title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
 
@@ -29,7 +25,6 @@
 
         <!-- Template Stylesheet -->
         <link href="path/css/style.css" rel="stylesheet">
-    </head>
      @viteReactRefresh
     @vite('resources/js/app.js')
 </head>
