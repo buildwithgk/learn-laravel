@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,24 +14,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{any?}', function () {
-    return view('welcome');
-})->where('any', '.*');
-// Route::get('/about', function () {
+// Route::get('/{any?}', function () {
 //     return view('welcome');
-// });
+// })->where('any', '.*');
 
 // Route::get('/', function () {
 //     $response = Http::get('http://localhost:3000/');
 //     return $response->body(); // This will fetch content from Node.js server (public/views/index.html)
 // });
 
-// // Route::get('/about', function() {
-// //     $response = Http::get('http://localhost:3000/about');
-// //     return $response->body();
-// // });
+// Route::get('/test', function(){
+//     return view('test');
+// });
 
-// Route::get('/{page_name}', function($page_name) {
-//     $response = Http::get("http://localhost:3000/$page_name");
-//     return $response->body();
+// Route::post('/test', function(Request $request){
+//     echo '<pre>';
+//         print_r($request->all());
+//    echo '</pre>';
 // });
