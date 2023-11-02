@@ -14,9 +14,9 @@ use Illuminate\Http\Request;
 |
 */
 
-// Route::get('/{any?}', function () {
-//     return view('welcome');
-// })->where('any', '.*');
+Route::get('/{any?}', function () {
+    return view('welcome');
+})->where('any', '.*');
 
 // Route::get('/', function () {
 //     $response = Http::get('http://localhost:3000/');
