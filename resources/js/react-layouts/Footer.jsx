@@ -22,6 +22,11 @@ const Footer = () => {
 	                    <div className="col-lg-3 col-md-6">
 	                        <a href="#" className="h3 text-secondary">Short Link</a>
 	                        <div className="mt-4 d-flex flex-column short-link">
+	                        	{/*<Link to="/about" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>About us</Link>
+				                <Link to="/contact" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Contact us</Link>
+				                <Link to="/service" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Our Services</Link>
+				                <Link to="/project" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Our Projects</Link>
+				                <Link to="/blog" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Latest Blog</Link>*/}
 	                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>About us</a>
 	                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
 	                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Our Services</a>

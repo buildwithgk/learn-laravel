@@ -34,11 +34,12 @@ const Header = () => {
       {/* Topbar End */}
       
       {/* Navbar Start */}
-      <div className="container-fluid bg-primary">
+      <div className="container-fluid" style={{ backgroundColor: 'black', important: 'true'  }}>
         <div className="container">
           <nav className="navbar navbar-dark navbar-expand-lg py-0">
             <Link to="/" className="navbar-brand">
-              <h1 className="text-white fw-bold d-block">High<span className="text-secondary">Tech</span> </h1>
+              {/*<h1 className="text-white fw-bold d-block">High<span className="text-secondary">Tech</span> </h1>*/}
+              <img src="/path/img/newone.png" alt="Logo" className="img-fluid" /> {/* Replace "/path/to/your/logo.png" with the actual path to your logo image */}
             </Link>
             <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
               <span className="navbar-toggler-icon"></span>
