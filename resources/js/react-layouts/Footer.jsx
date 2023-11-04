@@ -9,7 +9,8 @@ const Footer = () => {
 	                <div className="row g-5">
 	                    <div className="col-lg-3 col-md-6">
 	                        <a href="index.html">
-	                            <h1 className="text-white fw-bold d-block">High<span className="text-secondary">Tech</span> </h1>
+	                            {/*<h1 className="text-white fw-bold d-block">High<span className="text-secondary">Tech</span> </h1>*/}
+	                         <img src="/path/img/newone.png" alt="Logo" className="img-fluid" />
 	                        </a>
 	                        <p className="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
 	                        <div className="d-flex hightech-link">

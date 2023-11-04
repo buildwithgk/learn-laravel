@@ -379,7 +379,7 @@ export default function Index() {
                         <h1>Meet our expert Team</h1>
                     </div>
                     {/*owl-carousel class removed*/}
-                    <div className="team-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div className="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
                         <div className="rounded team-item">
                             <div className="team-content">
                                 <div className="team-img-icon">
