@@ -2,6 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+   const buttonStyle = {
+    position: 'absolute',
+    top: '0',
+    right: '0',
+    marginTop: '10px',
+    zIndex: '1',
+  };
   return (
     <div>
       {/* Spinner Start */}
@@ -41,7 +48,7 @@ const Header = () => {
               {/*<h1 className="text-white fw-bold d-block">High<span className="text-secondary">Tech</span> </h1>*/}
               <img src="/path/img/newone.png" alt="Logo" className="img-fluid" /> {/* Replace "/path/to/your/logo.png" with the actual path to your logo image */}
             </Link>
-            <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" style={buttonStyle}>
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse bg-transparent" id="navbarCollapse">

@@ -17,7 +17,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="container-fluid bg-secondary py-5">
+            {/*<div className="container-fluid bg-secondary py-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 wow fadeIn" data-wow-delay=".1s">
@@ -46,9 +46,10 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-            </div>
-        
-            <div className="container-fluid py-5 my-5">
+            </div>*/}
+            
+            {/*<div className="container-fluid py-5 my-5">*/}
+            <div className="container-fluid">        
                 <div className="container py-5">
                     <div className="row g-5">
                         <div className="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
