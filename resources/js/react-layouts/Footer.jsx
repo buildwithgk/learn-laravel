@@ -48,9 +48,9 @@ const Footer = () => {
 	                    <div className="col-lg-3 col-md-6">
 	                        <a href="#" className="h3 text-secondary">Contact Us</a>
 	                        <div className="text-white mt-4 d-flex flex-column contact-link">
-	                            <a href="#" className="pb-3 text-light border-bottom border-primary"><i className="fas fa-map-marker-alt text-secondary me-2"></i> 123 Street, New York, USA</a>
-	                            <a href="#" className="py-3 text-light border-bottom border-primary"><i className="fas fa-phone-alt text-secondary me-2"></i> +123 456 7890</a>
-	                            <a href="#" className="py-3 text-light border-bottom border-primary"><i className="fas fa-envelope text-secondary me-2"></i> info@exmple.con</a>
+	                            {/*<a href="#" className="pb-3 text-light border-bottom border-primary"><i className="fas fa-map-marker-alt text-secondary me-2"></i> 123 Street, New York, USA</a>*/}
+	                            <a href="#" className="py-3 text-light border-bottom border-primary"><i className="fas fa-phone-alt text-secondary me-2"></i> +91 9413-4005-73</a>
+	                            <a href="#" className="py-3 text-light border-bottom border-primary"><i className="fas fa-envelope text-secondary me-2"></i> support@jlktechnology.com</a>
 	                        </div>
 	                    </div>
 	                </div>

@@ -23,8 +23,9 @@ const Header = () => {
         <div className="container">
           <div className="d-flex justify-content-between topbar">
             <div className="top-info">
-              <small className="me-3 text-white-50"><i className="fas fa-map-marker-alt me-2 text-secondary"></i>23 Ranking Street, New York</small>
-              <small className="me-3 text-white-50"><i className="fas fa-envelope me-2 text-secondary"></i>Email@Example.com</small>
+              {/*<small className="me-3 text-white-50"><i className="fas fa-map-marker-alt me-2 text-secondary"></i>Phase 8B, Industrial Area, Sector 74, Sahibzada Ajit Singh Nagar,</small>*/}
+              <small className="me-3 text-white-50"><i className="fas fa-envelope me-2 text-secondary"></i>support@jlktechnology.com</small>
+              <small className="text-white-50"><i className="fas fa-phone-alt me-2 text-secondary"></i>+91 9413-4005-73</small>
             </div>
             <div id="note" className="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div>
             <div className="top-link">
@@ -80,7 +81,7 @@ const Header = () => {
                 </div>
                 <div className="d-flex flex-column pe-4 border-end">
                     <span className="text-white-50">Have any questions?</span>
-                    <span className="text-secondary">Call: + 0123 456 7890</span>
+                    <span className="text-secondary">Call: + 9413 400 573</span>
                 </div>
                 <div className="d-flex align-items-center justify-content-center ms-4 ">
                     <a href="#"><i className="bi bi-search text-white fa-2x"></i> </a>
