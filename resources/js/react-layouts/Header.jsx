@@ -9,6 +9,9 @@ const Header = () => {
     marginTop: '10px',
     zIndex: '1',
   };
+  const logoStyle = {
+    maxWidth: '50%'
+  };
   return (
     <div>
       {/* Spinner Start */}
@@ -47,7 +50,7 @@ const Header = () => {
           <nav className="navbar navbar-dark navbar-expand-lg py-0">
             <Link to="/" className="navbar-brand">
               {/*<h1 className="text-white fw-bold d-block">High<span className="text-secondary">Tech</span> </h1>*/}
-              <img src="/path/img/newone.png" alt="Logo" className="img-fluid" /> {/* Replace "/path/to/your/logo.png" with the actual path to your logo image */}
+              <img src="/path/img/newone.png" alt="Logo" className="img-fluid" style={logoStyle} /> {/* Replace "/path/to/your/logo.png" with the actual path to your logo image */}
             </Link>
             <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" style={buttonStyle}>
               <span className="navbar-toggler-icon"></span>

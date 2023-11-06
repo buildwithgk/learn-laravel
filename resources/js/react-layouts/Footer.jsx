@@ -2,6 +2,9 @@ import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+	 const logoStyle = {
+	    maxWidth: '80%'
+	  };
 	return (
 		<div>
 	         <div className="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
@@ -10,7 +13,7 @@ const Footer = () => {
 	                    <div className="col-lg-3 col-md-6">
 	                        <a href="index.html">
 	                            {/*<h1 className="text-white fw-bold d-block">High<span className="text-secondary">Tech</span> </h1>*/}
-	                         <img src="/path/img/newone.png" alt="Logo" className="img-fluid" />
+	                         <img src="/path/img/newone.png" alt="Logo" className="img-fluid" style={logoStyle} />
 	                        </a>
 	                        <p className="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
 	                        <div className="d-flex hightech-link">
