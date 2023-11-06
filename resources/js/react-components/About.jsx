@@ -62,15 +62,38 @@ export default function About() {
                         </div>
                         <div className="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                             <h5 className="text-primary">About Us</h5>
-                            <h1 className="mb-4">About HighTech Agency And It's Innovative IT Solutions</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
-                            <p className="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
-                            <a href="" className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                             <h1 className="mb-4">Transforming Your Ideas Into Great Software</h1>
+                            <p>Our mission is to create incredible and powerful products to help in your business growth.</p>
+                            <p className="mb-4">We are a software consulting and development company that offers innovative solutions to meet the client’s business needs. Our team of professionals has wide expertise in Web Design and Development, Mobile and Desktop Applications and Online Marketing Solutions. We provide our customers with reliable and error-free software applications, regardless of complexity. Our top-notch developers use the latest software methodologies and technologies. We overcome the challenges of working with an offshore team and deliver a quality product while meeting time-to-market demands..</p>
+                            <p className="mb-4">We help you tap the opportunities for growth and innovation by building cutting-edge web applications using latest technologies that redefine emerging market trends and create new opportunities for your online business.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <div className="container-fluid">        
+                <div className="container py-5">
+                    <div className="row abt_prt animatedParent animateOnce">
+                        <div className="col-md-4 ">
+                            <img src="https://www.xornor.co/wp-content/uploads/2018/11/our_vision.jpg" className="animated growIn1 " alt="our vision" />
+                            <h4 className="in_sub_title">Our Vision</h4>
+                            <p className="p_text">
+                            Our vision is to help our clients materialize their idea, through technology and top-notch solutions. Our philosophy is to develop quality products, after understanding the requirements, use cases and business goals so that we deliver what you have envisioned.            </p>
+                        </div>
+                        <div className="col-md-4 animatedParent animateOnce" data-sequence="500">
+                            <img src="https://www.xornor.co/wp-content/uploads/2018/11/pexels.jpg" className="animated growIn1 " alt="team &amp; office culture" />
+                            <h4 className="in_sub_title">Team &amp; Office Culture</h4>
+                            <p className="p_text">
+                            We are passionate about our work and the key to our success is ‘Teamwork’. We collaboratively work towards customers’ satisfaction and we love it when they love our work. The happiness of our clients keeps us going and inspire us to build a masterpiece every single time.            </p>
+                        </div>
+                        <div className="col-md-4 animatedParent animateOnce" data-sequence="500">
+                            <img src="https://www.xornor.co/wp-content/uploads/2018/11/ourmission.jpg" className="animated growIn1 " alt="our mission" />
+                            <h4 className="in_sub_title">Our Mission</h4>
+                            <p className="p_text">                  
+                            The Mission of Xornor Software Technologies is to deliver the highest quality of customer service on time, with a sense of innovation, commitment and disruptive thinking. We take care of every technical and market aspect so that the product adds a plus to the client’s business growth.            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
             <div className="container-fluid pb-5 mb-5 team">
                 <div className="container pb-5">
                     <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{maxwidth: "600px"}}>

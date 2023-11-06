@@ -89,10 +89,10 @@ export default function Index() {
                         </div>
                         <div className="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                             <h5 className="text-primary">About Us</h5>
-                            <h1 className="mb-4">About HighTech Agency And It's Innovative IT Solutions</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
-                            <p className="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
-                            <a href="" className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                            <h1 className="mb-4">Transforming Your Ideas Into Great Software</h1>
+                            <p>Our mission is to create incredible and powerful products to help in your business growth.</p>
+                            <p className="mb-4">We are a software consulting and development company that offers innovative solutions to meet the client’s business needs. Our team of professionals has wide expertise in Web Design and Development, Mobile and Desktop Applications and Online Marketing Solutions. We provide our customers with reliable and error-free software applications, regardless of complexity. Our top-notch developers use the latest software methodologies and technologies. We overcome the challenges of working with an offshore team and deliver a quality product while meeting time-to-market demands.</p>
+                            <a href="/about" className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
                         </div>
                     </div>
                 </div>
