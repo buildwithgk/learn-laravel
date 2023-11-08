@@ -110,7 +110,7 @@ export default function Index() {
                                     <div className="services-content-icon">
                                         <i className="fa fa-code fa-7x mb-4 text-primary"></i>
                                         <h4 className="mb-3">Web Design</h4>
-                                        <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
+                                        <p className="mb-4">A well-designed website is simple and communicates clearly to avoid confusing users. It wins and fosters the target audience's trust, removing as many potential points of user frustration as possible, we can handle thes</p>
                                         <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@ export default function Index() {
                                     <div className="services-content-icon">
                                         <i className="fa fa-file-code fa-7x mb-4 text-primary"></i>
                                         <h4 className="mb-3">Web Development</h4>
-                                        <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
+                                        <p className="mb-4">From designing to development of your business website to creating an E-Commerce platform for your startup, we have got enough experience to delight you and end users.</p>
                                         <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                                     </div>
                                 </div>

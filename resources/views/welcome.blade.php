@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MOM | Dashboard</title>
+    <title>JLKT</title>
     <link rel="icon" type="image/svg+xml" href="./images/favicon.png" />
         <meta content="" name="keywords">
         <meta content="" name="description">
