@@ -1,4 +1,5 @@
-// URL : https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/square-filters/800-series
+<?php
+// URL : https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/square-filters/800-series -->
 
 $square_filters_800=[
         'title'=>'B+W',
@@ -56,7 +57,7 @@ $square_filters_800=[
          ]
 ];
 
-// URL : https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/black-white
+// URL : https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/black-white -->
 
 $black_white_filters=[
         'title'=>'B+W',
@@ -93,7 +94,7 @@ $black_white_filters=[
          ]
 ];
 
-// URL : https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/infrared
+// URL : https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/infrared -->
 
 $infrared_filters=[
         'title'=>'B+W',
@@ -133,7 +134,7 @@ $infrared_filters=[
          ]
 ];
 
-// URL: https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/neutral-density/nd-800-series
+// URL: https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/neutral-density/nd-800-series -->
 
 $nd_filters=[
         'title'=>'B+W',
@@ -181,7 +182,7 @@ $nd_filters=[
          ]
 ];
 
-// URL : https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/polarizer
+// URL : https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/polarizer -->
 
 $polarizer=[
         'title'=>'B+W',
@@ -220,7 +221,7 @@ $polarizer=[
          ]
 ];
 
-// URL : https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/protection/uv-clear
+// URL : https://schneiderkreuznach.com/en/photo-optics/b-w-filters/filtertypes/protection/uv-clear -->
 $protection_clear_uv_haze=[
         'title'=>'B+W',
         'src'=>'https://schneiderkreuznach.com/application/files/7516/4673/1341/B_W_Filter_-_Product_-_Master_-_Front_-_CPL_MRC_nano_HTC_Kaesemann.jpg',
@@ -257,5 +258,112 @@ $protection_clear_uv_haze=[
                     ]
                 ]
             ]
+         ]
+];
+
+// URL : https://schneiderkreuznach.com/en/cine-optics/products/xenon-ff-prime-set -->
+
+$xenon=[
+        'title'=>'Xenon',
+        'src'=>'https://schneiderkreuznach.com/application/files/1416/8871/4861/cine-optics-teaser_2_1.jpg',
+            'heading'=>[
+                'Xenon', 'FF-Primes' , 'Set'
+            ],
+        'description'=>[
+            'Xenon FF-Primes – a set of matched professional primes, purpose-built from scratch for the demands of today’s high-resolution digital cinematography – made to last through generations of changing camera technology.',
+            'In today’s fast moving world the last thing you want to slow you down is your optics package. That’s why Xenon FF-Primes were custom designed from the ground up to be versatile enough to work with an array of cameras and accessories you may need for various projects today and tomorrow.',
+            'So whether it is RED Dragon or Weapon, Canon C100/C300/C500, Arri Alexa, Black Magic, Sony F5/F55 and HDSLR cameras, these compact lenses provide 4K (4096 × 2304 pixels) resolution and cover the full 43.3 mm image circle usable on Canon 5D and Sony A7 cameras.',
+        ]
+];
+
+// https://schneiderkreuznach.com/en/cine-optics/products/isco-family
+
+$ISCO_family=[
+        'title'=>'ISCO Family',
+        'src'=>'https://schneiderkreuznach.com/application/files/5416/8847/3562/Schneider-Kreuznach_ISCO4all_Group_Shot_1_1.jpg',
+            'heading'=>[
+                '#anamorphic', '#spherical'
+            ],
+        'description'=>[
+            'Welcome to our ISCO Family! 
+            It all started with ISCO4all, the world first full frame lens set for both anamorphic and spherical storytelling. In the meantime, our ISCO family has grown by ISCO2all - and all our products are available as single items. Find out more - and mix and match yourself. ',
+            'Spherical vs. Anamorphic Shooting? That not our approach. Our ISCO lenses and sets allow you to do both in a cost-effective way.  Create spherical footage with the vintage-style ISCOspherical mini cine primes - or switch to anamorphic widescreen in just a few seconds. Simply screw our ISCORAMA 54 CU-1.5x anamorphic front adapter onto your cine prime and you are ready to go.',
+            'All of the ISCO articles are available as single components and can be combined as desired. This holds true for all accessories, but also for the main characters of our ISCO family: ISCORAMA 54 CU-1.5x Anamorphic Adapter and the three spherical cine primes ISCOsphericals A+ EF. Just scroll down this page to find a full list of our ISCO products as well as the matching IDS and descriptions.',
+            'ISCO2all is the perfect starter kit to enter the world of spherical and anamorphic shooting. It is available in three versions and combines one ISCORAMA 54 CU-1.5x Anamorphic Adapter with one ISCOspherical of your choice (focal length 43. 58 or 85 mm).',
+            'ISCO4all A+ is the new, extended version of ISCO4all and a result of market research. Like its predecessor, the full package combines three stand-alone spherical cine primes and an anamorphic front adapter. On top, ISCO4all A+ now includes a focus lock and three user-changeable PL-Mount Kits, allowing for an easy conversion of the ISCOspherical mini cine primes from EF- to PL-Mount.'
+        ],
+        'models'=>[
+            [
+                'src'=>'https://schneiderkreuznach.com/application/files/3616/8846/3888/ISCORAMA_54_Anamorphic_Adapter_Schneider-Kreuznach.png',
+                'model_data'=>[
+                    "heding"=>"ISCORAMA 54 CU-1.5X #ANAMORPHIC",
+                    "value"=>[
+                        "Vintage-style anamorphic front adapter",
+                        "Squeeze Factor 1.5x",
+                        "Close focus distance 1.4 m",
+                        "Single focus (ISCO patent)",
+                        "Stepless horizon adjustment",
+                        "Standard 0.8 gear on focus ring",
+                        "1/4'-20 UNC bracket for rod support"
+                    ]
+                ]
+            ],
+            [
+                'src'=>'https://schneiderkreuznach.com/application/files/1316/8846/4291/Schneider-Kreuznach_ISCOspherical_lenses_Group_Shot_showing_43_58_and_85_mm_focal_length_1.jpg',
+                'model_data'=>[
+                    "heding"=>"ISCOSPHERICALS A+ #SPHERICAL",
+                    "value"=>[
+                        "Light-weight mini cine primes",
+                        "Full Frame coverage",
+                        "Vintage Amber Coating (A+) for authentic flares",
+                        "Focal lengths:  43, 58 and 85 mm with 2.4 T-stop",
+                        "Consistent in size, weight and scale positions",
+                        "user-changeable EF-Mount (add. PL-Mount Kit available)",
+                        "Made by Dulens, modified for Schneider-Kreuznach",
+                    ]
+                ]
+            ],
+            [
+                'src'=>'https://schneiderkreuznach.com/application/files/4916/8846/4762/ISCO_Family_Mix_and_Match_-_Single_Products_Overview_Graphics.jpg',
+                'model_data'=>[
+                    "heding"=>"ISCO - MIX AND MATCH THE SINGLE PRODUCTS",
+                    "value"=>[
+                        "ISCORAMA 54 CU-1.5x Anamorphic Front Adapter incl. ISCORAMA 54 Support Bracket 1/4 (mounted) incl. ISCORAMA 54 Adapter M77/M72 SLIM (mounted)",
+                        "ISCOsphericals 2.4 A+ EF 43 mm",
+                        "ISCOsphericals 2.4 A+ EF 58 mm",
+                        "ISCOsphericals 2.4 A+ EF 85 mm",
+                        "ISCOspherical PL-Mount Kits",
+                        "ISCOspherical Focus Lock",
+                        "ISCORAMA 54 Adapters or Adapter Sets (8 pieces)",
+                        "ISCORAMA 54 Support Bracket 1/4 + 3/8"
+                    ]
+                ]
+            ],
+            [
+                'src'=>'https://schneiderkreuznach.com/application/files/3816/8846/5516/Overview_Graphics_ISCO2all_Starter_Kit_Products_and_Options.png',
+                'model_data'=>[
+                    "heding"=>"SETS: ISCO2ALL THE STARTER KITS",
+                    "value"=>[
+                        "Option 1: ISCO2all 43 A+ EF ISCORAMA 54 CU-1.5x Front Adapter ISCOspherical 2.4/43 A+ EF Prime",
+                        "Option 2: ISCO2all 58 A+ EF ISCORAMA 54 CU-1.5x Front Adapter ISCOspherical 2.4/58 A+ EF Prime",
+                        "Option 3: ISCO2all 85 A+ EF ISCORAMA 54 CU-1.5x Front Adapter ISCOspherical 2.4/85 A+ EF Prime",
+                    ]
+                ]
+            ],
+            [
+                'src'=>'https://schneiderkreuznach.com/application/files/2016/8846/8081/Overview_Graphics_ISCO4all_A__Set_-_Included_Products.png',
+                'model_data'=>[
+                    "heding"=>"SET: ISCO4ALL A+ THE BIG BOX",
+                    "value"=>[
+                        "ISCORAMA 54 CU-1.5x Anamorphic Front Adapter incl. ISCORAMA 54 Support Bracket 1/4 (mounted) incl. ISCORAMA 54 Adapter M77/M72 SLIM (mounted)",
+                        "ISCOsphericals 2.4 A+ EF 43 mm",
+                        "ISCOsphericals 2.4 A+ EF 58 mm",
+                        "ISCOsphericals 2.4 A+ EF 85 mm",
+                        "3 ISCOspherical PL-Mount Kits",
+                        "ISCOspherical Focus Lock",
+                        "ISCO4all A+ Hard Case"
+                    ]
+                ]
+            ],
          ]
 ];
