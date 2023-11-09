@@ -134,11 +134,9 @@ export default function Index() {
                                     <div className="services-content-icon">
                                         <i className="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
                                         <h4 className="mb-3">UI/UX Design</h4>
-                                        <p className="mb-4">With the majority of internet users browsing on mobile devices, 
-                                        ensuring your website is mobile-responsive is non-negotiable. A responsive design adapts 
-                                        to various screen sizes, providing an optimal viewing experience on smartphones and tablets.
+                                        <p className="mb-4">
                                          A mobile-friendly UI/UX design not only improves user satisfaction but also positively 
-                                         influences your website's search engine rankings.</p>
+                                         influences your website's search engine rankings.We also handle these task in very superb way</p>
                                         <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                                     </div>
                                 </div>
@@ -150,7 +148,9 @@ export default function Index() {
                                     <div className="services-content-icon">
                                         <i className="fas fa-user-secret fa-7x mb-4 text-primary"></i>
                                         <h4 className="mb-3">Web Cecurity</h4>
-                                        <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
+                                        <p className="mb-4">In today's digital age, ensuring the security of your website is paramount.
+                                         With cyber threats evolving constantly, it's crucial for businesses and individuals alike to 
+                                         adopt robust web security practices. we provide you actionable tips to safeguard your online presence.</p>
                                         <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                                     </div>
                                     
@@ -163,7 +163,10 @@ export default function Index() {
                                     <div className="services-content-icon">
                                         <i className="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
                                         <h4 className="mb-3">Digital Marketing</h4>
-                                        <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
+                                        <p className="mb-4">JLK Technology proud itself for being one of the top-rated Internet Marketing
+                                         Agencies worldwide. If you are struggling to get more traffic on your website, looking 
+                                         for a better return on ad spent, need more sales of your services or products, then your
+                                          search for the ends here.</p>
                                         <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                                     </div>
                                 </div>
