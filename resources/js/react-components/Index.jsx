@@ -134,7 +134,11 @@ export default function Index() {
                                     <div className="services-content-icon">
                                         <i className="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
                                         <h4 className="mb-3">UI/UX Design</h4>
-                                        <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
+                                        <p className="mb-4">With the majority of internet users browsing on mobile devices, 
+                                        ensuring your website is mobile-responsive is non-negotiable. A responsive design adapts 
+                                        to various screen sizes, providing an optimal viewing experience on smartphones and tablets.
+                                         A mobile-friendly UI/UX design not only improves user satisfaction but also positively 
+                                         influences your website's search engine rankings.</p>
                                         <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                                     </div>
                                 </div>
